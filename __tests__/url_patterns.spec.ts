@@ -4,7 +4,7 @@ import {
   twitterUrlPattern,
   urlPattern,
   httpsUrlPattern,
-} from '../src/url_patterns'
+} from '../src/patterns/url'
 
 it('return the validation result when entry a Web URL', () => {
   const target = 'http://www.example.com/'
