@@ -1,23 +1,23 @@
-# `@jiyuujin/validate-utils`
+# `@jiyuujin/validation-utils`
 
-Install `@jiyuujin/validate-utils`
+Install `@jiyuujin/validation-utils`
 
 ```bash
 # npm
-npm i @jiyuujin/validate-utils
+npm i @jiyuujin/validation-utils
 
 # yarn
-yarn add @jiyuujin/validate-utils
+yarn add @jiyuujin/validation-utils
 ```
 
 ## Usage
 
 ### Use regular expressions for Japanese characters
 
-Use `japaneseCharactersPattern` in `@jiyuujin/validate-utils`.
+Use `japaneseCharactersPattern` in `@jiyuujin/validation-utils`.
 
 ```ts
-import { japaneseCharactersPattern } from '@jiyuujin/validate-utils'
+import { japaneseCharactersPattern } from '@jiyuujin/validation-utils'
 ```
 
 #### Targets
@@ -30,10 +30,10 @@ import { japaneseCharactersPattern } from '@jiyuujin/validate-utils'
 
 ### Use regular expressions for Kanji characters
 
-Use `japaneseKanjiPattern` in `@jiyuujin/validate-utils`.
+Use `japaneseKanjiPattern` in `@jiyuujin/validation-utils`.
 
 ```ts
-import { japaneseKanjiPattern } from '@jiyuujin/validate-utils'
+import { japaneseKanjiPattern } from '@jiyuujin/validation-utils'
 ```
 
 #### Targets
@@ -42,10 +42,10 @@ import { japaneseKanjiPattern } from '@jiyuujin/validate-utils'
 
 ### Use regular expressions for machine dependent word patterns
 
-Use `machineDependentWordPattern` in `@jiyuujin/validate-utils`.
+Use `machineDependentWordPattern` in `@jiyuujin/validation-utils`.
 
 ```ts
-import { machineDependentWordPattern } from '@jiyuujin/validate-utils'
+import { machineDependentWordPattern } from '@jiyuujin/validation-utils'
 ```
 
 #### Targets
@@ -56,10 +56,10 @@ import { machineDependentWordPattern } from '@jiyuujin/validate-utils'
 
 ### Use regular expressions for emoji
 
-Use `countEmoji` in `@jiyuujin/validate-utils`.
+Use `countEmoji` in `@jiyuujin/validation-utils`.
 
 ```ts
-import { countEmoji } from '@jiyuujin/validate-utils'
+import { countEmoji } from '@jiyuujin/validation-utils'
 ```
 
 #### Targets
@@ -70,10 +70,10 @@ import { countEmoji } from '@jiyuujin/validate-utils'
 
 ### Delete control characters
 
-Use `trimControlCharacters` in `@jiyuujin/validate-utils`.
+Use `trimControlCharacters` in `@jiyuujin/validation-utils`.
 
 ```ts
-import { trimControlCharacters } from '@jiyuujin/validate-utils'
+import { trimControlCharacters } from '@jiyuujin/validation-utils'
 ```
 
 #### Targets
@@ -82,7 +82,7 @@ import { trimControlCharacters } from '@jiyuujin/validate-utils'
 
 ### Filter url patterns
 
-Mainly use `urlPattern` in `@jiyuujin/validate-utils`.
+Mainly use `urlPattern` in `@jiyuujin/validation-utils`.
 
 ```ts
 import {
@@ -94,7 +94,7 @@ import {
   youTubeEmbedCodePattern,
   vimeoEmbedCodePattern,
   slidoEmbedCodePattern,
-} from '@jiyuujin/validate-utils'
+} from '@jiyuujin/validation-utils'
 ```
 
 #### Targets
