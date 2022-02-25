@@ -8,6 +8,8 @@ import { japaneseCharactersPattern, japaneseKanjiPattern } from './regex'
 export const hasEmailWithJapanese = (text: string): boolean => {
   let flag = false
 
+  if (!text) return !flag
+
   if (text.indexOf('@') === -1) return !flag
 
   for (const t of text.split('@')) {
